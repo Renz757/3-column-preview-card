@@ -1,0 +1,56 @@
+.container {
+    height: 100vh;
+
+    //colors
+    .card:first-child {
+        background-color: $Brightorange;
+
+
+        button {
+            color: $Brightorange;
+
+            &:hover {
+                color: white;
+                background-color: $Brightorange;
+            }
+        }
+
+    }
+
+    .card:nth-child(2) {
+        background-color: $DarkCyan;
+
+        button {
+            color: $DarkCyan;
+
+            &:hover {
+                color: white;
+                background-color: $DarkCyan;
+            }
+        }
+    }
+
+    .card:last-child {
+        background-color: $Verydarkcyan;
+
+        button {
+            color: $Verydarkcyan;
+
+            &:hover {
+                color: white;
+                background-color: $Verydarkcyan;
+            }
+        } 
+    }
+
+     //styles 
+    .card {
+        padding: 40px;
+
+        .wrapper {
+            max-width: 67%;
+            margin: 0 auto;
+        }
+    }  
+}
+

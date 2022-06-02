@@ -1,0 +1,98 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  color: white;
+  line-height: 1.75;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  margin-top: 16px;
+  padding: 10px 19px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0px 0px 3px hsl(0deg, 6%, 85%);
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+.container .card:first-child {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.container .card:first-child button {
+  color: hsl(31deg, 77%, 52%);
+}
+.container .card:first-child button:hover {
+  color: white;
+  background-color: hsl(31deg, 77%, 52%);
+}
+.container .card:nth-child(2) {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.container .card:nth-child(2) button {
+  color: hsl(184deg, 100%, 22%);
+}
+.container .card:nth-child(2) button:hover {
+  color: white;
+  background-color: hsl(184deg, 100%, 22%);
+}
+.container .card:last-child {
+  background-color: hsl(179deg, 100%, 13%);
+}
+.container .card:last-child button {
+  color: hsl(179deg, 100%, 13%);
+}
+.container .card:last-child button:hover {
+  color: white;
+  background-color: hsl(179deg, 100%, 13%);
+}
+.container .card {
+  padding: 40px;
+}
+.container .card .wrapper {
+  max-width: 67%;
+  margin: 0 auto;
+}
+
+@media (min-width: 968px) {
+  .container {
+    line-height: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container .card {
+    padding-top: 24px;
+    display: flex;
+  }
+  .container .card .wrapper {
+    max-width: 75%;
+    margin: 0 auto;
+    align-self: center;
+  }
+  .container .card .wrapper .btn {
+    padding: 14px 25px;
+    margin-top: 10em;
+  }
+  .container .card .wrapper .img {
+    margin-bottom: 5em;
+  }
+}/*# sourceMappingURL=style.css.map */
